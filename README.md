@@ -5,7 +5,7 @@
 ---
 
 # Product Name Goes Here
-A note about what the product is and what this integration/scriptlet is all about. 
+A note about what the product is and what this integration/scriptlet is all about. Check out the sweet video [here](media/mysweetvideo.mov). 
 
 # Pre-Requisites
 * Version 453 of App XYZ
@@ -13,8 +13,8 @@ A note about what the product is and what this integration/scriptlet is all abou
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* FileA.js - The javascript file to be pasted into a Shared Library. It generally does this. 
-* FileB.js - Some other scriptlet
+* [FileA.js](FileA.js) - The javascript file to be pasted into a Shared Library. It generally does xyz. 
+* [MySweetCommPlan.zip](MySweetCommPlan.zip) - The comm plan (if needed) that has all the coold scripts and email format and such. 
 
 # Installation
 Details of the installation go here. 
