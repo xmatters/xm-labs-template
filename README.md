@@ -1,5 +1,22 @@
 # Instructions on creating the repo
-[Create the repo](https://help.github.com/articles/create-a-repo/) using your own Github account and let Travis know when you are finished. He will then fork it to pull it under the xMatters account and update the necessary links in the xM Labs main page.
+[Create the repo](https://help.github.com/articles/create-a-repo/) using your own Github account.
+When you create don't add a README or LICENSE. This will make sure to initialize an empty repo
+
+Open a command line and do the following. Where `MY_NEW_REPO_NAME_HERE` is the name of your github repo and `MY_NEW_REPO_URL` is the url generated when you create the new repo. 
+
+```bash
+# Clone the template repo to the local file system
+git clone https://github.com/xmatters/xm-labs-template.git
+# Change the directory name to avoid confusion and then cd into it
+mv xm-labs-template MY_NEW_REPO_NAME_HERE  
+cd MY_NEW_REPO_NAME_HERE
+# We have to tell git that the place it needs to push is not where it came from
+git remote set-url origin https://MY_NEW_REPO_URL.git
+# Pust to the remote repo
+git push -u origin master
+```
+
+Then, edit all your files and drop any new ones into the `MY_NEW_REPO_NAME_HERE` directory. Once you are finished, let Travis know and he will then fork it to the xMatters account and update the necessary links in the xM Labs main page. From there if you update your repo, those changes can be merged into the xMatters account repo and everything will be kept up to date!
 
 # Template below:
 ---
