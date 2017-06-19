@@ -33,7 +33,7 @@ A note about what the product is and what this integration/scriptlet is all abou
 * [FileA.js](FileA.js) - The javascript file to be pasted into a Shared Library. It generally does xyz. 
 * [MySweetCommPlan.zip](MySweetCommPlan.zip) - The comm plan (if needed) that has all the coold scripts and email format and such. 
 
-# How It Works
+# How it works
 Add some info here detailing the overall architecture and how the integration works. I.e. An action happens in Application XYZ which triggers the thingamajig to fire a REST API call to the xMatters Inbound Integration. The integration script then parses out the payload and builds an event and passes that to xMatters. 
 
 # Installation
