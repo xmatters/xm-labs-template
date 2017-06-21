@@ -18,7 +18,7 @@ git remote set-url origin https://MY_NEW_REPO_URL.git
 git push -u origin master
 ```
 
-Then, make the updates to the `README.md` file and add any other files necessary. Periodically, do a `git commit` to stash the changes locally, then `git push origin master` to push the local changes to github.com. 
+Then, make the updates to the `README.md` file and add any other files necessary. README.md files are written in github flavored markdown, see [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for a quick reference. Periodically, do a `git commit` to stash the changes locally, then `git push origin master` to push the local changes to github.com. 
 
 Once you are all finished, let Travis know and he will then fork it to the xMatters account and update the necessary links in the xM Labs main page. From there if you update your repo, those changes can be merged into the xMatters account repo and everything will be kept up to date!
 
