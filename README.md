@@ -2,6 +2,8 @@
 [Create the repo](https://help.github.com/articles/create-a-repo/) using your own Github account.
 When you create don't add a README or LICENSE. This will make sure to initialize an empty repo
 
+*Note*: These instructions are for using git at the terminal. The github desktop client is rather limited and likely won't save you any headaches. 
+
 Open a command line and do the following. Where `MY_NEW_REPO_NAME_HERE` is the name of your github repo and `MY_NEW_REPO_URL` is the url generated when you create the new repo. 
 
 ```bash
@@ -16,7 +18,9 @@ git remote set-url origin https://MY_NEW_REPO_URL.git
 git push -u origin master
 ```
 
-Then, edit all your files and drop any new ones into the `MY_NEW_REPO_NAME_HERE` directory. Once you are finished, let Travis know and he will then fork it to the xMatters account and update the necessary links in the xM Labs main page. From there if you update your repo, those changes can be merged into the xMatters account repo and everything will be kept up to date!
+Then, make the updates to the `README.md` file and add any other files necessary. Periodically, do a `git commit` to stash the changes locally, then `git push origin master` to push the local changes to github.com. 
+
+Once you are all finished, let Travis know and he will then fork it to the xMatters account and update the necessary links in the xM Labs main page. From there if you update your repo, those changes can be merged into the xMatters account repo and everything will be kept up to date!
 
 # Template below:
 ---
