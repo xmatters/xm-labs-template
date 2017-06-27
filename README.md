@@ -7,18 +7,25 @@ When you create don't add a README or LICENSE. This will make sure to initialize
 Open a command line and do the following. Where `MY_NEW_REPO_NAME_HERE` is the name of your github repo and `MY_NEW_REPO_URL` is the url generated when you create the new repo. 
 
 ```bash
-# Clone the template repo to the local file system
+# Clone the template repo to the local file system. 
 git clone https://github.com/xmatters/xm-labs-template.git
-# Change the directory name to avoid confusion and then cd into it
-mv xm-labs-template MY_NEW_REPO_NAME_HERE  
+# Change the directory name to avoid confusion, then cd into it
+mv xm-labs-template MY_NEW_REPO_NAME_HERE
 cd MY_NEW_REPO_NAME_HERE
-# We have to tell git that the place it needs to push is not where it came from
-git remote set-url origin https://MY_NEW_REPO_URL.git
-# Pust to the remote repo
-git push -u origin master
+# Remove the template git history
+rm -Rf .git/
+# Initialize the new git repo
+git init
+# Point this repo to the one on github
+git remote add origin https://github.com/MY_NEW_REPO_URL.git
+# Add all files in the current directory and commit to staging
+git add .
+git commit -m "initial commit"
+# Push to cloud!
+git push origin master
 ```
 
-Then, make the updates to the `README.md` file and add any other files necessary. README.md files are written in github flavored markdown, see [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for a quick reference. Periodically, do a `git commit` to stash the changes locally, then `git push origin master` to push the local changes to github.com. 
+Then, make the updates to the `README.md` file and add any other files necessary. `README.md` files are written in github flavored markdown, see [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for a quick reference. Periodically, do a `git commit` to stash the changes locally, then `git push origin master` to push the local changes to github.com. 
 
 Once you are all finished, let Travis know and he will then fork it to the xMatters account and update the necessary links in the xM Labs main page. From there if you update your repo, those changes can be merged into the xMatters account repo and everything will be kept up to date!
 
