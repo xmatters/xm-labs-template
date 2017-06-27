@@ -41,8 +41,8 @@ A note about what the product is and what this integration/scriptlet is all abou
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* [FileA.js](FileA.js) - The javascript file to be pasted into a Shared Library. It generally does xyz. 
-* [MySweetCommPlan.zip](MySweetCommPlan.zip) - The comm plan (if needed) that has all the coold scripts and email format and such. 
+* [MySweetCommPlan.zip](MySweetCommPlan.zip) - The comm plan that has all the coold scripts and email format and such. If it doesn't make sense to have a full comm plan, then just use a couple js files like the one below. 
+* [FileA.js](FileA.js) - The javascript file to be pasted into a Shared Library. It does xyz. 
 
 # How it works
 Add some info here detailing the overall architecture and how the integration works. I.e. An action happens in Application XYZ which triggers the thingamajig to fire a REST API call to the xMatters Inbound Integration. The integration script then parses out the payload and builds an event and passes that to xMatters. 
@@ -56,17 +56,17 @@ Specific steps go here
 Images are encouraged. Adding them is as easy as:
 ```
 <kbd>
-  <img src="media/cat-tax.png">
+  <img src="media/cat-tax.png" width="200" height="400">
 </kbd>
 ```
 
 <kbd>
-  <img src="media/cat-tax.png">
+  <img src="media/cat-tax.png" width="200" height="400">
 </kbd>
 
 
 ## xMatters set up
-1. Create a new Shared Library or (In|Out)bound integration
+1. Steps to create a new Shared Library or (In|Out)bound integration or point them to the help to import a comm plan (link: http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
 2. Add this code here:
    ```
    var items = [];
