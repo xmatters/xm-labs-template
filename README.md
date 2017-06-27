@@ -46,6 +46,18 @@ Details of the installation go here.
 ## Application ABC set up
 Specific steps go here
 
+Images are encouraged. Adding them is as easy as:
+```
+<kbd>
+  <img src="media/cat-tax.jpg">
+</kbd>
+```
+
+<kbd>
+  <img src="media/cat-tax.jpg">
+</kbd>
+
+
 ## xMatters set up
 1. Create a new Shared Library or (In|Out)bound integration
 2. Add this code here:
