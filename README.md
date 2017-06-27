@@ -56,12 +56,12 @@ Specific steps go here
 Images are encouraged. Adding them is as easy as:
 ```
 <kbd>
-  <img src="media/cat-tax.jpg">
+  <img src="media/cat-tax.png">
 </kbd>
 ```
 
 <kbd>
-  <img src="media/cat-tax.jpg">
+  <img src="media/cat-tax.png">
 </kbd>
 
 
