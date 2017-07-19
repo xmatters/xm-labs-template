@@ -64,6 +64,16 @@ Add some info here detailing the overall architecture and how the integration wo
 # Installation
 Details of the installation go here. 
 
+## xMatters set up
+1. Steps to create a new Shared Library or (in|out)bound integration or point them to the xMatters online help to cover specific steps; i.e., import a communication plan (link: http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
+2. Add this code to some place on what page:
+   ```
+   var items = [];
+   items.push( { "stuff": "value"} );
+   console.log( 'Do stuff' );
+   ```
+
+
 ## Application ABC set up
 Any specific steps for setting up the target application? The more precise you can be, the better!
 
@@ -79,15 +89,6 @@ Images are encouraged. Adding them is as easy as:
 </kbd>
 
 
-## xMatters set up
-1. Steps to create a new Shared Library or (in|out)bound integration or point them to the xMatters online help to cover specific steps; i.e., import a communication plan (link: http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
-2. Add this code to some place on what page:
-   ```
-   var items = [];
-   items.push( { "stuff": "value"} );
-   console.log( 'Do stuff' );
-   ```
-   
 # Testing
 Be specific. What should happen to make sure this code works? What would a user expect to see? 
 
