@@ -8,7 +8,43 @@ Some examples to emulate:
 ## 1. Create the repo
 [Create the repo](https://help.github.com/articles/create-a-repo/) using your own GitHub account. Please prefix the name of the repo with `xm-labs-` and all in lower case. When you create the repo don't add a README or LICENSE; this will make sure to initialize an empty repo. 
 
-## 2. Clone the template
+## 2. Populate the repo
+There are two options here:
+
+1. [Create from scratch](create-from-scratch) - great for quick and easy start
+2. [Clone the template](clone-the-template) - great for ensuring all the components are ready
+
+### Create from scratch
+Creating from scratch is great if you just want to dive in and get the repo started. Just make sure you have all the necessary files and formats. 
+
+**Files**:
+* **README.md** - This is the main page of the repo and will contain all the instructions and links. See below for document structure
+* **LICENSE** - This is the license to cover copying and such. Just copy the contents of [this file](https://github.com/xmatters/xm-labs-template/blob/master/LICENSE)
+* **/media/*** - Directory for holding screenshots or videos
+* As needed:
+   * **Workflow.zip** - Helpful for packaging one or more steps for easy import. Also necessary for any forms and templates
+   * **somescript.js** - If it makes more sense to just include a javascript file that gets copy/pasted then name it appropriately
+
+The **README.md** file should have the following structure and contents
+* **Name**
+   * Quick, two line description of the entry
+   * Link to disclaimer image: https://raw.githubusercontent.com/xmatters/xMatters-Labs/master/media/disclaimer.png. Note that when clicked, the browser is sent here: https://support.xmatters.com/hc/en-us/community/topics
+* **Pre-Requisites**
+   * A list of pre-reqs to use the entry. Versions where applicable are helpful. 
+* **Files**
+   * A list of necessary files. If there is a workflow.zip file add an entry here with a link. 
+* **How it works**
+   * An in-depth description of how it works. Especially any tricky or confusing bits
+* **Installation**
+   * Installation details. Use whatever order makes sense
+   * **xMatters**
+   * **"Other"**
+* **Testing**
+   * How do I know it's working? What should I expect?
+* **Troubleshooting**
+   * Point to docs in the help walk through the pieces of the "pipeline" and where to inspect for errors or broken bits
+
+### Clone the template
 *Note*: These instructions use git in the terminal. The GitHub desktop client is rather limited and likely won't save you any headaches. 
 
 Open a command line and do the following. Where `MY_NEW_REPO_NAME_HERE` is the name of your GitHub repo and `MY_NEW_REPO_URL` is the url generated when you create the new repo. 
