@@ -11,8 +11,8 @@ Some examples to emulate:
 ## 2. Populate the repo
 There are two options here:
 
-1. [Create from scratch](create-from-scratch) - great for quick and easy start
-2. [Clone the template](clone-the-template) - great for ensuring all the components are ready
+1. [Create from scratch](#create-from-scratch) - great for quick and easy start
+2. [Clone the template](#clone-the-template) - great for ensuring all the components are ready
 
 ### Create from scratch
 Creating from scratch is great if you just want to dive in and get the repo started. Just make sure you have all the necessary files and formats. 
