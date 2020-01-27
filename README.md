@@ -17,7 +17,7 @@ There are two options here:
 ### Create from scratch
 Creating from scratch is great if you just want to dive in and get the repo started. Just make sure you have all the necessary files and formats. 
 
-**Files**:
+The repo should have the following files:
 * **README.md** - This is the main page of the repo and will contain all the instructions and links. See below for document structure
 * **LICENSE** - This is the license to cover copying and such. Just copy the contents of [this file](https://github.com/xmatters/xm-labs-template/blob/master/LICENSE)
 * **/media/*** - Directory for holding screenshots or videos
